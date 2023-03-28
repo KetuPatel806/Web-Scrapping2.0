@@ -19,6 +19,7 @@ def index():
         try:
             searchString = request.form['content'].replace(" ","")
             flipkart_url = "https://www.flipkart.com/search?q=" + searchString
+            
             uClient = uReq(flipkart_url)
             flipkartPage = uClient.read()
             uClient.close()

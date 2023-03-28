@@ -5466,3 +5466,8 @@ INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Flipkart Custome
 INFO:werkzeug:172.18.0.2 - - [28/Mar/2023 22:18:42] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [28/Mar/2023 22:18:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:172.18.0.2 - - [28/Mar/2023 22:18:42] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.21:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
